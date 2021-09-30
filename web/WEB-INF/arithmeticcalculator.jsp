@@ -12,6 +12,24 @@
         <title>Arithmetic Calculator</title>
     </head>
     <body>
-        <h1>Arithmetic Calculator</h1>
+        <form>
+            <h1>Arithmetic Calculator</h1>
+            <div>
+                First: <input type="number" name="firstNumber" value="">
+            </div>
+            <div>
+                Second: <input type="number" name="secondNumber" value="">
+            </div>
+            <div>
+                <input type="button" name="add" value="+">
+                <input type="button" name="minus" value="-">
+                <input type="button" name="multiply" value="*">
+                <input type="button" name="divide" value="%">
+            </div>
+            <br>
+            Result: ---
+            </div>
+            <a href="agecalculator.jsp">Age Calculator</a>
+        </form>
     </body>
 </html>
