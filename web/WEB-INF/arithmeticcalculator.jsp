@@ -12,7 +12,7 @@
         <title>Arithmetic Calculator</title>
     </head>
     <body>
-        <form>
+        <form method="POST" action="arithmetic">
             <h1>Arithmetic Calculator</h1>
             <div>
                 First: <input type="number" name="firstNumber" value="">
@@ -24,12 +24,12 @@
                 <input type="button" name="add" value="+">
                 <input type="button" name="minus" value="-">
                 <input type="button" name="multiply" value="*">
-                <input type="button" name="divide" value="%">
+                <input type="button" name="modulus" value="%">
             </div>
             <br>
             Result: ---
-            </div>
-            <a href="agecalculator.jsp">Age Calculator</a>
+            <br>
+            <a href="age">Age Calculator</a>
         </form>
     </body>
 </html>
